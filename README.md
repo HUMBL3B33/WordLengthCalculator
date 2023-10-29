@@ -1,5 +1,7 @@
 # Word Length Calculator Project
 
+![Alt text](JavaApp.png)
+
 The Word Length Calculator is a simple Java application that calculates the length of a given word. This project utilizes Maven for dependency management, building, and packaging the application into a runnable JAR file.
 
 ## Prerequisites
