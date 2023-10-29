@@ -12,7 +12,7 @@ Create a new Maven project by running the following command:
 ```bash
 mvn archetype:generate -DgroupId=com.example -DartifactId=my-word-length-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-```markdown
+```
 ## 2. Update `pom.xml`
 
 Open the `pom.xml` file and specify the Java version and add the `maven-jar-plugin` to include the `Main-Class` attribute in the manifest file.
