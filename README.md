@@ -46,7 +46,7 @@ Open the `pom.xml` file and specify the Java version and add the `maven-jar-plug
 
 <!-- ... other elements ... -->
 
-```markdown
+```
 ## 3. Implementing the Application
 
 Create a file `WordLengthCalculator.java` under `src/main/java/com/example` and implement your logic.
@@ -64,21 +64,21 @@ public class WordLengthCalculator {
     }
 }
 
-```markdown
+```
 ## 4. Building and Packaging
 
 Run the following command to build and package your application into a JAR file:
 ```bash
 mvn clean package
 
-```markdown
+```
 ## 5. Running the Application
 
 On your development machine, you can run the application using the following command:
 ```bash
 java -jar target/my-word-length-project-1.0-SNAPSHOT.jar <word>
 
-```markdown
+```
 ## 6. Running on Other Machines
 
 - Copy the `target/my-word-length-project-1.0-SNAPSHOT.jar` file to the other machine.
